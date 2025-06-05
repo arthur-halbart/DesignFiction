@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DWMA project</title>
+  <title>Design Fiction</title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -10,8 +10,15 @@
   <!-- Favicon -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!--ROBOTO MONO-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <!--ITC Avant Garde Gothic Pro-->
+  <link rel="stylesheet" href="https://use.typekit.net/xwy7fvk.css">
+  <!--CSS-->
   <link rel="stylesheet" href="styles/app.css">
-
+  <!--JS-->
   <script src="scripts/app.js" defer></script>
 </head>
 <body>
@@ -20,25 +27,32 @@
   <!--HEADER-->
   <header>
    <section class="section section__header">
-    <img src="" alt="">
-    <div>
-      <h1>CP<span class="img__title__header"></span>CJ</h1>
-      <p><span>C</span>ontrôle de <span>P</span>ersonnes avec un <span>C</span>asier <s>J</s>udiciaire</p>
+    <img class="img__background" src="assets/images/Image header 1.webp" alt="">
+    <div class="title_P">
+      <div>
+        <h2>CP</h2> 
+        <img class="img__title__header" src="assets/images/img_title@2x-2.webp" alt="">
+        <h2>CJ</h2>
+      </div>
+      <p><span>C</span>ontrôle de <span>P</span>ersonnes avec un <span>C</span>asier <span>J</span>udiciaire</p>
+      </div>
       <div class="bottom__header">
-        <div class="element__graphique"></div>
-        <div></div>
-        <div>
-          <div>
-            <p>Début du système :</p>
-            <p>08.15.2035</p>
-          </div>
-          <div class="element__graphique"></div>
+        <div class="element__graphique petit">
         </div>
-        <div>
+        <div class="picto"></div>
+        <div class="date">
+          <div>
+            <p class="light">Début du système :</p>
+            <p class="bold">08.15.2035</p>
+          </div>
+          <div class="element__graphique">
+          </div>
+        </div>
+        <div class="spitch">
           <p>Dans un monde où toutes les personnes ayant un casier judiciaire sont géolocalisées et, en fonction des crimes qu'elles ont commis, sont interdites d'accès à certains lieux privés ou publics.</p>
         </div>
-        <div class="element__graphique"></div>
-      </div>
+        <div class="element__graphique">
+        </div>
     </div>
    </section>
   </header>
@@ -56,49 +70,60 @@
     <!--PUCE-->
     <section class="section section__puce">
       <h2>La puce</h2>
-      <div>
+      <div class="block_txt_img">
         <p>La puce implantée (la X230r) utilise des technologies avancées de géolocalisation. Elle est connectée à des serveurs qui surveillent les mouvements des individus en temps réel. En fonction du lieu où la personne se trouve, elle aura ‘x’ minutes pour partir du périmètre. Et si la personne ne quitte pas les lieux, la police sera appelée.</p>
         <img src="" alt="">
-
       </div>
     </section>
     <!--USER FLOW-->
     <section class="section section__userFlow">
       <div class="userFlow userFlow_01">
-        <div>
+        <div class="txt">
           <div>
-            <h3>USER FLOW_01</h3>
-            <p>Bruxelles</p>
-            <p>Vol (infraction mineure mais récurrente)</p>
-            <p>Durée de restriction : 5 ans</p>
+            <div class="info">
+              <h3>USER FLOW_01</h3>
+              <p class="ville">Bruxelles</p>
+              <p>Vol (infraction mineure mais récurrente)</p>
+              <p>Durée de restriction : 5 ans</p>
+            </div>
             <div class="element__graphique"></div>
           </div>
         </div>
-        <img src="" alt="">
+        <a href="">
+          <img src="assets/images/IMG_EXEMPLE_01.webp" alt="">
+        </a>
       </div>
       <div class="userFlow userFlow_02">
-        <div>
+        <div class="txt">
           <div>
-            <h3>USER FLOW_02</h3>
-            <p>Bruxelles</p>
-            <p>Violences physiques</p>
-            <p>Durée de restriction : 7 ans</p>
+            <div class="info">
+              <h3>USER FLOW_02</h3>
+              <p class="ville">Bruxelles</p>
+              <p>Violences physiques</p>
+              <p>Durée de restriction : 7 ans</p>
+            </div>
             <div class="element__graphique"></div>
           </div>
         </div>
-        <img src="" alt="">
+        <a href="">
+          <img src="assets/images/IMG EXEMPLE_02.webp" alt="">
+        </a>
       </div>
       <div class="userFlow userFlow_03">
-        <div>
+        <div class="txt">
           <div>
-            <h3>USER FLOW_03</h3>
-            <p>Bruxelles</p>
-            <p>Crime sexuel</p>
-            <p>Durée de restriction : <span>à</span> vie</p>
+            <div class="info">
+              <h3>USER FLOW_03</h3>
+              <p class="ville">Bruxelles</p>
+              <p>Crime sexuel</p>
+              <p>Durée de restriction : <span>à</span> vie</p>
+            </div>
             <div class="element__graphique"></div>
           </div>
         </div>
-        <img src="" alt="">
+        <a href="">
+          <img src="assets/images/IMG EXEMPLE_03.webp" alt="">
+        </a>
       </div>
     </section>
   </main>
