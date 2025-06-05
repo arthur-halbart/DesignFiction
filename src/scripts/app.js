@@ -17,3 +17,32 @@ const canvas = document.getElementById('noiseCanvas');
 }
 
 generateNoise();
+
+//////////////////////////////////////////////////:
+//////////////////////////////////////////////////:
+
+function revealOnScroll() {
+    let elements = document.querySelectorAll(".reveal");
+    let windowHeight = window.innerHeight;
+    
+    elements.forEach((el) => {
+      let elementTop = el.getBoundingClientRect().top;
+      if (elementTop < windowHeight - 50) {
+        el.classList.add("active");
+      }
+    });
+  }
+  
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll();
+
+//////////////////////////////////////////////////:
+//////////////////////////////////////////////////:
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-wrapper');
+
+menuBtn.addEventListener('click', () => {
+	menuBtn.classList.toggle('open');
+	menu.classList.toggle('open');
+});
