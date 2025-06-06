@@ -677,6 +677,7 @@ footer{
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-top: 4rem;
 
       .element__graphique{
         width: clamp(7.0625rem, 3.1458rem + 17.4074vw, 18.8125rem);
@@ -691,8 +692,13 @@ footer{
 
       .element__graphique_02{
         top: 81%;
-        right: -15%;
+        right: 0%;
         z-index: -1;
+
+        @media ( min-width: 810px){
+          right: -15%;
+        }
+
       }
 
       img{
