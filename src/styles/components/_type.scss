@@ -729,9 +729,12 @@ footer{
         padding-left: 3rem;
       }
 
-      p{
+      h1,p{
         font-size: clamp(1rem, 0.7292rem + 1.2037vw, 1.8125rem);
         width: clamp(19rem, 6.2708rem + 56.5741vw, 57.1875rem);
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
       }  
     }
   }
